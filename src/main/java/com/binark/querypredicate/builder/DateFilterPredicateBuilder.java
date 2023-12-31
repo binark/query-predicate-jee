@@ -2,12 +2,12 @@ package com.binark.querypredicate.builder;
 
 import com.binark.querypredicate.filter.DateFilter;
 import com.binark.querypredicate.filter.Range;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.Path;
-import jakarta.persistence.criteria.Predicate;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.Path;
+import javax.persistence.criteria.Predicate;
 
 /**
  * The predicate builder for the {@link DateFilter} type

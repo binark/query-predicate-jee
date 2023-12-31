@@ -6,11 +6,6 @@ import com.binark.querypredicate.descriptor.QueryDescriptor;
 import com.binark.querypredicate.filter.Filter;
 import com.binark.querypredicate.management.BasePredicateBuilderResolver;
 import com.binark.querypredicate.management.PredicateBuilderResolver;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.Join;
-import jakarta.persistence.criteria.Path;
-import jakarta.persistence.criteria.Predicate;
-import jakarta.persistence.criteria.Root;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,6 +13,11 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.Path;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
 
 /**
  * @param <Q> generic param that should implements {@link QueryDescriptor}

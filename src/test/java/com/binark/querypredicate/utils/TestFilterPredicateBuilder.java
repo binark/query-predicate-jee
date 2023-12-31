@@ -2,10 +2,10 @@ package com.binark.querypredicate.utils;
 
 import com.binark.querypredicate.annotation.FilterClass;
 import com.binark.querypredicate.builder.PredicateBuilder;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.Path;
-import jakarta.persistence.criteria.Predicate;
 import java.lang.reflect.Field;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.Path;
+import javax.persistence.criteria.Predicate;
 
 @FilterClass(TestFilter.class)
 public class TestFilterPredicateBuilder implements PredicateBuilder<TestFilter> {

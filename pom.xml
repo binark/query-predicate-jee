@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.binark</groupId>
-  <artifactId>query-predicate</artifactId>
+  <artifactId>query-predicate-jee</artifactId>
   <version>1.0.0</version>
 
-  <name>query-predicate</name>
+  <name>query-predicate-jee</name>
   <description>This project helps users to build JPA query predicates easily.</description>
   <url>https://github.com/binark/query-predicate</url>
   <packaging>jar</packaging>
@@ -24,7 +24,7 @@
   <dependencies>
     <dependency>
       <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-core-jakarta</artifactId>
+      <artifactId>hibernate-core</artifactId>
       <version>5.6.15.Final</version>
     </dependency>
     <dependency>

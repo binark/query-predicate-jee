@@ -1,10 +1,10 @@
 package com.binark.querypredicate.builder;
 
 import com.binark.querypredicate.filter.DoubleFilter;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.Path;
-import jakarta.persistence.criteria.Predicate;
 import java.util.List;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.Path;
+import javax.persistence.criteria.Predicate;
 
 /**
  * <p>The predicate builder for the {@link DoubleFilter} type. Extends all features from {@link NumericFilterPredicateBuilder}</p>
